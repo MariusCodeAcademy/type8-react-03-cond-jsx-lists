@@ -6,6 +6,7 @@ function App() {
   const userAge = 50;
   return (
     <div className='App'>
+      <Card dark />
       <Card />
       <br />
       <button>Hello {isLoggedIn ? 'Mike, Logout' : 'Login'}</button>
